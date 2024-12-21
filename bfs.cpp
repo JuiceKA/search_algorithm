@@ -25,8 +25,6 @@ int main(){
     for(int i = 0 ; i < n - 1 ; ++i){
         int u, v;
         cin >> u >> v;
-        // adj[u] là tập tất cả các đỉnh kề u
-       // Khi ta thêm đỉnh v vào adj[u] có nghĩa là có cạnh trực tiếp theo hướng từ u tới v
         adj[u].push_back(v);
         adj[v].push_back(u);
     }
