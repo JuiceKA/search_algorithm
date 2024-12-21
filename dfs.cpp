@@ -19,7 +19,6 @@ int main(){
     for(int i = 0 ; i < n - 1 ; ++i){
         int u, v;
         cin >> u >> v;
-        // adj[u] là tập tất cả các đỉnh kề u
         adj[u].push_back(v);
         adj[v].push_back(u);
     }
